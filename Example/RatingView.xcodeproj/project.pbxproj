@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A714C86180C513000DF54CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A714C85180C513000DF54CC /* Foundation.framework */; };
+		5A714C88180C513000DF54CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A714C87180C513000DF54CC /* CoreGraphics.framework */; };
+		5A714C8A180C513000DF54CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A714C89180C513000DF54CC /* UIKit.framework */; };
+		5A714C90180C513000DF54CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A714C8E180C513000DF54CC /* InfoPlist.strings */; };
+		5A714C92180C513000DF54CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A714C91180C513000DF54CC /* main.m */; };
+		5A714C96180C513000DF54CC /* RVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A714C95180C513000DF54CC /* RVAppDelegate.m */; };
+		5A714C99180C513000DF54CC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A714C97180C513000DF54CC /* Main_iPhone.storyboard */; };
+		5A714CA1180C513000DF54CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A714CA0180C513000DF54CC /* Images.xcassets */; };
+		5A714CA8180C513000DF54CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A714CA7180C513000DF54CC /* XCTest.framework */; };
+		5A714CA9180C513000DF54CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A714C85180C513000DF54CC /* Foundation.framework */; };
+		5A714CAA180C513000DF54CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A714C89180C513000DF54CC /* UIKit.framework */; };
+		5A714CB2180C513000DF54CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A714CB0180C513000DF54CC /* InfoPlist.strings */; };
+		5A714CB4180C513000DF54CC /* RatingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A714CB3180C513000DF54CC /* RatingViewTests.m */; };
+		5A714CC2180C51D200DF54CC /* RVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A714CC1180C51D200DF54CC /* RVViewController.m */; };
+		5A714CC5180C533400DF54CC /* unSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A714CC3180C533400DF54CC /* unSelected.png */; };
+		5A714CC6180C533400DF54CC /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A714CC4180C533400DF54CC /* selected.png */; };
+		5ACE4AE4180C58150052CD82 /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE4AE2180C58150052CD82 /* RatingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A714CAB180C513000DF54CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A714C7A180C513000DF54CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A714C81180C513000DF54CC;
+			remoteInfo = RatingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A714C82180C513000DF54CC /* RatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A714C85180C513000DF54CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A714C87180C513000DF54CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A714C89180C513000DF54CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A714C8D180C513000DF54CC /* RatingView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatingView-Info.plist"; sourceTree = "<group>"; };
+		5A714C8F180C513000DF54CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A714C91180C513000DF54CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A714C93180C513000DF54CC /* RatingView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RatingView-Prefix.pch"; sourceTree = "<group>"; };
+		5A714C94180C513000DF54CC /* RVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVAppDelegate.h; sourceTree = "<group>"; };
+		5A714C95180C513000DF54CC /* RVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVAppDelegate.m; sourceTree = "<group>"; };
+		5A714C98180C513000DF54CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5A714CA0180C513000DF54CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A714CA6180C513000DF54CC /* RatingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A714CA7180C513000DF54CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5A714CAF180C513000DF54CC /* RatingViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatingViewTests-Info.plist"; sourceTree = "<group>"; };
+		5A714CB1180C513000DF54CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A714CB3180C513000DF54CC /* RatingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingViewTests.m; sourceTree = "<group>"; };
+		5A714CC0180C51D200DF54CC /* RVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVViewController.h; sourceTree = "<group>"; };
+		5A714CC1180C51D200DF54CC /* RVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVViewController.m; sourceTree = "<group>"; };
+		5A714CC3180C533400DF54CC /* unSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unSelected.png; sourceTree = "<group>"; };
+		5A714CC4180C533400DF54CC /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		5ACE4AE2180C58150052CD82 /* RatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RatingView.m; path = ../RatingView/RatingView.m; sourceTree = "<group>"; };
+		5ACE4AE3180C58150052CD82 /* RatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RatingView.h; path = ../RatingView/RatingView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A714C7F180C513000DF54CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A714C88180C513000DF54CC /* CoreGraphics.framework in Frameworks */,
+				5A714C8A180C513000DF54CC /* UIKit.framework in Frameworks */,
+				5A714C86180C513000DF54CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A714CA3180C513000DF54CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A714CA8180C513000DF54CC /* XCTest.framework in Frameworks */,
+				5A714CAA180C513000DF54CC /* UIKit.framework in Frameworks */,
+				5A714CA9180C513000DF54CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A714C79180C513000DF54CC = {
+			isa = PBXGroup;
+			children = (
+				5ACE4AE2180C58150052CD82 /* RatingView.m */,
+				5ACE4AE3180C58150052CD82 /* RatingView.h */,
+				5A714C8B180C513000DF54CC /* RatingView */,
+				5A714CAD180C513000DF54CC /* RatingViewTests */,
+				5A714C84180C513000DF54CC /* Frameworks */,
+				5A714C83180C513000DF54CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A714C83180C513000DF54CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A714C82180C513000DF54CC /* RatingView.app */,
+				5A714CA6180C513000DF54CC /* RatingViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A714C84180C513000DF54CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A714C85180C513000DF54CC /* Foundation.framework */,
+				5A714C87180C513000DF54CC /* CoreGraphics.framework */,
+				5A714C89180C513000DF54CC /* UIKit.framework */,
+				5A714CA7180C513000DF54CC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A714C8B180C513000DF54CC /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				5A714CC0180C51D200DF54CC /* RVViewController.h */,
+				5A714CC1180C51D200DF54CC /* RVViewController.m */,
+				5A714C97180C513000DF54CC /* Main_iPhone.storyboard */,
+				5A714C8C180C513000DF54CC /* Supporting Files */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
+		5A714C8C180C513000DF54CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A714CC3180C533400DF54CC /* unSelected.png */,
+				5A714CC4180C533400DF54CC /* selected.png */,
+				5A714C94180C513000DF54CC /* RVAppDelegate.h */,
+				5A714C95180C513000DF54CC /* RVAppDelegate.m */,
+				5A714CA0180C513000DF54CC /* Images.xcassets */,
+				5A714C8D180C513000DF54CC /* RatingView-Info.plist */,
+				5A714C8E180C513000DF54CC /* InfoPlist.strings */,
+				5A714C91180C513000DF54CC /* main.m */,
+				5A714C93180C513000DF54CC /* RatingView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A714CAD180C513000DF54CC /* RatingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A714CB3180C513000DF54CC /* RatingViewTests.m */,
+				5A714CAE180C513000DF54CC /* Supporting Files */,
+			);
+			path = RatingViewTests;
+			sourceTree = "<group>";
+		};
+		5A714CAE180C513000DF54CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A714CAF180C513000DF54CC /* RatingViewTests-Info.plist */,
+				5A714CB0180C513000DF54CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A714C81180C513000DF54CC /* RatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A714CB7180C513000DF54CC /* Build configuration list for PBXNativeTarget "RatingView" */;
+			buildPhases = (
+				5A714C7E180C513000DF54CC /* Sources */,
+				5A714C7F180C513000DF54CC /* Frameworks */,
+				5A714C80180C513000DF54CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RatingView;
+			productName = RatingView;
+			productReference = 5A714C82180C513000DF54CC /* RatingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A714CA5180C513000DF54CC /* RatingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A714CBA180C513000DF54CC /* Build configuration list for PBXNativeTarget "RatingViewTests" */;
+			buildPhases = (
+				5A714CA2180C513000DF54CC /* Sources */,
+				5A714CA3180C513000DF54CC /* Frameworks */,
+				5A714CA4180C513000DF54CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A714CAC180C513000DF54CC /* PBXTargetDependency */,
+			);
+			name = RatingViewTests;
+			productName = RatingViewTests;
+			productReference = 5A714CA6180C513000DF54CC /* RatingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A714C7A180C513000DF54CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tanguy Hélesbeux";
+				TargetAttributes = {
+					5A714CA5180C513000DF54CC = {
+						TestTargetID = 5A714C81180C513000DF54CC;
+					};
+				};
+			};
+			buildConfigurationList = 5A714C7D180C513000DF54CC /* Build configuration list for PBXProject "RatingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A714C79180C513000DF54CC;
+			productRefGroup = 5A714C83180C513000DF54CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A714C81180C513000DF54CC /* RatingView */,
+				5A714CA5180C513000DF54CC /* RatingViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A714C80180C513000DF54CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A714CA1180C513000DF54CC /* Images.xcassets in Resources */,
+				5A714CC5180C533400DF54CC /* unSelected.png in Resources */,
+				5A714C99180C513000DF54CC /* Main_iPhone.storyboard in Resources */,
+				5A714CC6180C533400DF54CC /* selected.png in Resources */,
+				5A714C90180C513000DF54CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A714CA4180C513000DF54CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A714CB2180C513000DF54CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A714C7E180C513000DF54CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A714CC2180C51D200DF54CC /* RVViewController.m in Sources */,
+				5A714C96180C513000DF54CC /* RVAppDelegate.m in Sources */,
+				5A714C92180C513000DF54CC /* main.m in Sources */,
+				5ACE4AE4180C58150052CD82 /* RatingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A714CA2180C513000DF54CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A714CB4180C513000DF54CC /* RatingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A714CAC180C513000DF54CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A714C81180C513000DF54CC /* RatingView */;
+			targetProxy = 5A714CAB180C513000DF54CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A714C8E180C513000DF54CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A714C8F180C513000DF54CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A714C97180C513000DF54CC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A714C98180C513000DF54CC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5A714CB0180C513000DF54CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A714CB1180C513000DF54CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A714CB5180C513000DF54CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A714CB6180C513000DF54CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A714CB8180C513000DF54CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingView/RatingView-Prefix.pch";
+				INFOPLIST_FILE = "RatingView/RatingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A714CB9180C513000DF54CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingView/RatingView-Prefix.pch";
+				INFOPLIST_FILE = "RatingView/RatingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A714CBB180C513000DF54CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RatingView.app/RatingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingView/RatingView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RatingViewTests/RatingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5A714CBC180C513000DF54CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RatingView.app/RatingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingView/RatingView-Prefix.pch";
+				INFOPLIST_FILE = "RatingViewTests/RatingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A714C7D180C513000DF54CC /* Build configuration list for PBXProject "RatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A714CB5180C513000DF54CC /* Debug */,
+				5A714CB6180C513000DF54CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A714CB7180C513000DF54CC /* Build configuration list for PBXNativeTarget "RatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A714CB8180C513000DF54CC /* Debug */,
+				5A714CB9180C513000DF54CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A714CBA180C513000DF54CC /* Build configuration list for PBXNativeTarget "RatingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A714CBB180C513000DF54CC /* Debug */,
+				5A714CBC180C513000DF54CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A714C7A180C513000DF54CC /* Project object */;
+}
