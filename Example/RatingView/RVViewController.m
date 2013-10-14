@@ -1,5 +1,5 @@
 //
-//  RVViewController.h
+//  RVViewController.m
 //  RatingView
 //
 //  Created by Tanguy Hélesbeux on 14/10/13.

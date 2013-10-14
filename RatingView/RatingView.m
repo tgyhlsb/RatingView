@@ -2,8 +2,8 @@
 //  RatingView.m
 //  RatingView
 //
-//  Created by Tanguy on 19/07/13.
-//  Copyright (c) 2013. All rights reserved.
+//  Created by Tanguy Hélesbeux on 14/10/13.
+//  Copyright (c) 2013 Tanguy Hélesbeux. All rights reserved.
 //
 
 #import "RatingView.h"
