@@ -1,0 +1,4 @@
+RatingView
+==========
+
+iOS rating component
